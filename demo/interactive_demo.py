@@ -393,9 +393,9 @@ Our analysis reveals that {topic} is characterized by:
             content += "## Final Report\n\n"
             content += result["final_report"] + "\n\n"
         
-        if "notes" in result and result["notes"]:
+        if "raw_notes" in result and result["raw_notes"]:
             content += "## Research Notes\n\n"
-            for i, note in enumerate(result["notes"], 1):
+            for i, note in enumerate(result["raw_notes"], 1):
                 content += f"### Note {i}\n\n"
                 content += note + "\n\n"
         
