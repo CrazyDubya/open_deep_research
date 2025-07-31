@@ -20,7 +20,7 @@ from rich.layout import Layout
 import json
 
 # Add the project root to the path
-project_root = Path(__file__).parent.parent.parent
+project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root / "src"))
 
 from open_deep_research.deep_researcher import deep_researcher
