@@ -1,0 +1,21 @@
+{
+  "name": "Mixed Providers Configuration",
+  "description": "Best of both worlds using OpenAI for research and Anthropic for final reporting",
+  "use_case": "Combining strengths of different providers, diverse perspectives",
+  "configuration": {
+    "research_model": "openai:gpt-4o",
+    "final_report_model": "anthropic:claude-3-5-sonnet-20241022",
+    "compression_model": "anthropic:claude-3-5-haiku-20241022",
+    "summarization_model": "openai:gpt-4o-mini",
+    "search_api": "tavily",
+    "max_researcher_iterations": 3,
+    "max_concurrent_research_units": 5,
+    "max_react_tool_calls": 7,
+    "allow_clarification": true,
+    "research_model_max_tokens": 16384,
+    "final_report_model_max_tokens": 32768
+  },
+  "estimated_cost": "High",
+  "estimated_time": "10-18 minutes",
+  "quality": "Diverse perspectives with complementary strengths"
+}
