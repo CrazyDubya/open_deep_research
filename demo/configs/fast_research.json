@@ -1,0 +1,21 @@
+{
+  "name": "Fast Research Configuration",
+  "description": "Optimized for speed and cost-efficiency using smaller models",
+  "use_case": "Quick research, proof of concepts, budget-conscious research",
+  "configuration": {
+    "research_model": "openai:gpt-4o-mini",
+    "final_report_model": "openai:gpt-4o-mini",
+    "compression_model": "openai:gpt-4o-mini",
+    "summarization_model": "openai:gpt-4o-mini",
+    "search_api": "tavily",
+    "max_researcher_iterations": 2,
+    "max_concurrent_research_units": 3,
+    "max_react_tool_calls": 3,
+    "allow_clarification": false,
+    "research_model_max_tokens": 4096,
+    "final_report_model_max_tokens": 8192
+  },
+  "estimated_cost": "Low",
+  "estimated_time": "2-5 minutes",
+  "quality": "Good for basic research needs"
+}

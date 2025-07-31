@@ -1,0 +1,21 @@
+{
+  "name": "Comprehensive Research Configuration",
+  "description": "High-quality research using top-tier models for in-depth analysis",
+  "use_case": "Academic research, professional reports, comprehensive analysis",
+  "configuration": {
+    "research_model": "openai:gpt-4o",
+    "final_report_model": "openai:gpt-4o",
+    "compression_model": "openai:gpt-4o-mini",
+    "summarization_model": "openai:gpt-4o-mini",
+    "search_api": "tavily",
+    "max_researcher_iterations": 4,
+    "max_concurrent_research_units": 6,
+    "max_react_tool_calls": 8,
+    "allow_clarification": true,
+    "research_model_max_tokens": 16384,
+    "final_report_model_max_tokens": 32768
+  },
+  "estimated_cost": "High",
+  "estimated_time": "10-20 minutes",
+  "quality": "Excellent for professional and academic use"
+}

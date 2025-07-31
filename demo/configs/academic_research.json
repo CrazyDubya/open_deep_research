@@ -1,0 +1,26 @@
+{
+  "name": "Academic Research Configuration",
+  "description": "Specialized for academic research with extended iterations and thorough analysis",
+  "use_case": "Literature reviews, thesis research, academic papers, citation-heavy work",
+  "configuration": {
+    "research_model": "openai:gpt-4o",
+    "final_report_model": "openai:gpt-4o",
+    "compression_model": "openai:gpt-4o",
+    "summarization_model": "openai:gpt-4o-mini",
+    "search_api": "tavily",
+    "max_researcher_iterations": 5,
+    "max_concurrent_research_units": 4,
+    "max_react_tool_calls": 10,
+    "allow_clarification": true,
+    "research_model_max_tokens": 32768,
+    "final_report_model_max_tokens": 65536
+  },
+  "estimated_cost": "Very High",
+  "estimated_time": "15-30 minutes",
+  "quality": "Highest quality for academic standards",
+  "special_features": [
+    "Extended context for comprehensive analysis",
+    "Higher iteration count for thorough research",
+    "Optimized for citation and reference handling"
+  ]
+}

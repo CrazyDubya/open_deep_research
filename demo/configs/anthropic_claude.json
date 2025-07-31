@@ -1,0 +1,21 @@
+{
+  "name": "Anthropic Claude Configuration",
+  "description": "Research using Anthropic's Claude models for alternative perspectives",
+  "use_case": "When you want Claude's reasoning style, safety-focused research",
+  "configuration": {
+    "research_model": "anthropic:claude-3-5-sonnet-20241022",
+    "final_report_model": "anthropic:claude-3-5-sonnet-20241022",
+    "compression_model": "anthropic:claude-3-5-haiku-20241022",
+    "summarization_model": "anthropic:claude-3-5-haiku-20241022",
+    "search_api": "tavily",
+    "max_researcher_iterations": 3,
+    "max_concurrent_research_units": 4,
+    "max_react_tool_calls": 6,
+    "allow_clarification": true,
+    "research_model_max_tokens": 16384,
+    "final_report_model_max_tokens": 32768
+  },
+  "estimated_cost": "Medium-High",
+  "estimated_time": "8-15 minutes",
+  "quality": "Excellent reasoning and safety considerations"
+}

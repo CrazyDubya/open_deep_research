@@ -352,7 +352,6 @@ async def final_report_generation(state: AgentState, config: RunnableConfig):
                 }
     return {
         "final_report": "Error generating final report: Maximum retries exceeded",
-        "messages": [final_report],
         **cleared_state
     }
 

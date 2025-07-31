@@ -1,0 +1,43 @@
+{
+  "evaluation_summary": {
+    "total_reports": 3,
+    "average_score": 0.7514169936915689,
+    "best_model": "openai:gpt-4o",
+    "evaluation_timestamp": "2025-07-31 14:37:47"
+  },
+  "detailed_results": [
+    {
+      "comprehensiveness": 0.781,
+      "source_diversity": 0.75,
+      "structure_quality": 0.7152756897097574,
+      "accuracy": 0.9129145486813137,
+      "clarity": 0.8952879683751728,
+      "overall_score": 0.8108956413532488,
+      "report_id": "report_1",
+      "model": "openai:gpt-4o",
+      "search_api": "tavily"
+    },
+    {
+      "comprehensiveness": 0.843,
+      "source_diversity": 0.6,
+      "structure_quality": 0.7792138178831531,
+      "accuracy": 0.870151775515047,
+      "clarity": 0.9177166326352236,
+      "overall_score": 0.8020164452066847,
+      "report_id": "report_2",
+      "model": "anthropic:claude-3-5-sonnet-20241022",
+      "search_api": "anthropic_web_search"
+    },
+    {
+      "comprehensiveness": 0.456,
+      "source_diversity": 0.4,
+      "structure_quality": 0.7667102018788994,
+      "accuracy": 0.7703047640608927,
+      "clarity": 0.8136795066340744,
+      "overall_score": 0.6413388945147733,
+      "report_id": "report_3",
+      "model": "openai:gpt-4o-mini",
+      "search_api": "tavily"
+    }
+  ]
+}
